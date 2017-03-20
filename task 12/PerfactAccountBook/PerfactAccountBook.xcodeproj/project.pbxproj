@@ -1,0 +1,536 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F4E1E291E251AC400604CFC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E1E281E251AC400604CFC /* AppDelegate.swift */; };
+		1F4E1E2B1E251AC400604CFC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E1E2A1E251AC400604CFC /* ViewController.swift */; };
+		1F4E1E2E1E251AC400604CFC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E1E2C1E251AC400604CFC /* Main.storyboard */; };
+		1F4E1E301E251AC400604CFC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E1E2F1E251AC400604CFC /* Assets.xcassets */; };
+		1F4E1E331E251AC400604CFC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E1E311E251AC400604CFC /* LaunchScreen.storyboard */; };
+		1F4E1E3E1E251AC400604CFC /* PerfactAccountBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E1E3D1E251AC400604CFC /* PerfactAccountBookTests.swift */; };
+		1F4E1E491E251AC400604CFC /* PerfactAccountBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E1E481E251AC400604CFC /* PerfactAccountBookUITests.swift */; };
+		1F4E1E591E251CFE00604CFC /* plus74.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F4E1E581E251CFE00604CFC /* plus74.png */; };
+		1F4E1E5D1E25282300604CFC /* AddAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4E1E5C1E25282300604CFC /* AddAccountViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F4E1E3A1E251AC400604CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4E1E1D1E251AC300604CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4E1E241E251AC300604CFC;
+			remoteInfo = PerfactAccountBook;
+		};
+		1F4E1E451E251AC400604CFC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F4E1E1D1E251AC300604CFC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F4E1E241E251AC300604CFC;
+			remoteInfo = PerfactAccountBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F4E1E251E251AC300604CFC /* PerfactAccountBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PerfactAccountBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4E1E281E251AC400604CFC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F4E1E2A1E251AC400604CFC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F4E1E2D1E251AC400604CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F4E1E2F1E251AC400604CFC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F4E1E321E251AC400604CFC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F4E1E341E251AC400604CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4E1E391E251AC400604CFC /* PerfactAccountBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfactAccountBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4E1E3D1E251AC400604CFC /* PerfactAccountBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfactAccountBookTests.swift; sourceTree = "<group>"; };
+		1F4E1E3F1E251AC400604CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4E1E441E251AC400604CFC /* PerfactAccountBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PerfactAccountBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F4E1E481E251AC400604CFC /* PerfactAccountBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfactAccountBookUITests.swift; sourceTree = "<group>"; };
+		1F4E1E4A1E251AC400604CFC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4E1E581E251CFE00604CFC /* plus74.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = plus74.png; sourceTree = "<group>"; };
+		1F4E1E5C1E25282300604CFC /* AddAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddAccountViewController.swift; path = ../AddAccountViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F4E1E221E251AC300604CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E361E251AC400604CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E411E251AC400604CFC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F4E1E1C1E251AC300604CFC = {
+			isa = PBXGroup;
+			children = (
+				1F4E1E271E251AC300604CFC /* PerfactAccountBook */,
+				1F4E1E3C1E251AC400604CFC /* PerfactAccountBookTests */,
+				1F4E1E471E251AC400604CFC /* PerfactAccountBookUITests */,
+				1F4E1E261E251AC300604CFC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F4E1E261E251AC300604CFC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E1E251E251AC300604CFC /* PerfactAccountBook.app */,
+				1F4E1E391E251AC400604CFC /* PerfactAccountBookTests.xctest */,
+				1F4E1E441E251AC400604CFC /* PerfactAccountBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F4E1E271E251AC300604CFC /* PerfactAccountBook */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E1E5C1E25282300604CFC /* AddAccountViewController.swift */,
+				1F4E1E281E251AC400604CFC /* AppDelegate.swift */,
+				1F4E1E2A1E251AC400604CFC /* ViewController.swift */,
+				1F4E1E2C1E251AC400604CFC /* Main.storyboard */,
+				1F4E1E2F1E251AC400604CFC /* Assets.xcassets */,
+				1F4E1E311E251AC400604CFC /* LaunchScreen.storyboard */,
+				1F4E1E341E251AC400604CFC /* Info.plist */,
+				1F4E1E581E251CFE00604CFC /* plus74.png */,
+			);
+			path = PerfactAccountBook;
+			sourceTree = "<group>";
+		};
+		1F4E1E3C1E251AC400604CFC /* PerfactAccountBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E1E3D1E251AC400604CFC /* PerfactAccountBookTests.swift */,
+				1F4E1E3F1E251AC400604CFC /* Info.plist */,
+			);
+			path = PerfactAccountBookTests;
+			sourceTree = "<group>";
+		};
+		1F4E1E471E251AC400604CFC /* PerfactAccountBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F4E1E481E251AC400604CFC /* PerfactAccountBookUITests.swift */,
+				1F4E1E4A1E251AC400604CFC /* Info.plist */,
+			);
+			path = PerfactAccountBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F4E1E241E251AC300604CFC /* PerfactAccountBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4E1E4D1E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBook" */;
+			buildPhases = (
+				1F4E1E211E251AC300604CFC /* Sources */,
+				1F4E1E221E251AC300604CFC /* Frameworks */,
+				1F4E1E231E251AC300604CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfactAccountBook;
+			productName = PerfactAccountBook;
+			productReference = 1F4E1E251E251AC300604CFC /* PerfactAccountBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F4E1E381E251AC400604CFC /* PerfactAccountBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4E1E501E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBookTests" */;
+			buildPhases = (
+				1F4E1E351E251AC400604CFC /* Sources */,
+				1F4E1E361E251AC400604CFC /* Frameworks */,
+				1F4E1E371E251AC400604CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4E1E3B1E251AC400604CFC /* PBXTargetDependency */,
+			);
+			name = PerfactAccountBookTests;
+			productName = PerfactAccountBookTests;
+			productReference = 1F4E1E391E251AC400604CFC /* PerfactAccountBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F4E1E431E251AC400604CFC /* PerfactAccountBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F4E1E531E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBookUITests" */;
+			buildPhases = (
+				1F4E1E401E251AC400604CFC /* Sources */,
+				1F4E1E411E251AC400604CFC /* Frameworks */,
+				1F4E1E421E251AC400604CFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F4E1E461E251AC400604CFC /* PBXTargetDependency */,
+			);
+			name = PerfactAccountBookUITests;
+			productName = PerfactAccountBookUITests;
+			productReference = 1F4E1E441E251AC400604CFC /* PerfactAccountBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F4E1E1D1E251AC300604CFC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "张皓";
+				TargetAttributes = {
+					1F4E1E241E251AC300604CFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					1F4E1E381E251AC400604CFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F4E1E241E251AC300604CFC;
+					};
+					1F4E1E431E251AC400604CFC = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1F4E1E241E251AC300604CFC;
+					};
+				};
+			};
+			buildConfigurationList = 1F4E1E201E251AC300604CFC /* Build configuration list for PBXProject "PerfactAccountBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F4E1E1C1E251AC300604CFC;
+			productRefGroup = 1F4E1E261E251AC300604CFC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F4E1E241E251AC300604CFC /* PerfactAccountBook */,
+				1F4E1E381E251AC400604CFC /* PerfactAccountBookTests */,
+				1F4E1E431E251AC400604CFC /* PerfactAccountBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F4E1E231E251AC300604CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E1E591E251CFE00604CFC /* plus74.png in Resources */,
+				1F4E1E331E251AC400604CFC /* LaunchScreen.storyboard in Resources */,
+				1F4E1E301E251AC400604CFC /* Assets.xcassets in Resources */,
+				1F4E1E2E1E251AC400604CFC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E371E251AC400604CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E421E251AC400604CFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F4E1E211E251AC300604CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E1E2B1E251AC400604CFC /* ViewController.swift in Sources */,
+				1F4E1E5D1E25282300604CFC /* AddAccountViewController.swift in Sources */,
+				1F4E1E291E251AC400604CFC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E351E251AC400604CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E1E3E1E251AC400604CFC /* PerfactAccountBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F4E1E401E251AC400604CFC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F4E1E491E251AC400604CFC /* PerfactAccountBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F4E1E3B1E251AC400604CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4E1E241E251AC300604CFC /* PerfactAccountBook */;
+			targetProxy = 1F4E1E3A1E251AC400604CFC /* PBXContainerItemProxy */;
+		};
+		1F4E1E461E251AC400604CFC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F4E1E241E251AC300604CFC /* PerfactAccountBook */;
+			targetProxy = 1F4E1E451E251AC400604CFC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F4E1E2C1E251AC400604CFC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4E1E2D1E251AC400604CFC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F4E1E311E251AC400604CFC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F4E1E321E251AC400604CFC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F4E1E4B1E251AC400604CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F4E1E4C1E251AC400604CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F4E1E4E1E251AC400604CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfactAccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		1F4E1E4F1E251AC400604CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PerfactAccountBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		1F4E1E511E251AC400604CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfactAccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfactAccountBook.app/PerfactAccountBook";
+			};
+			name = Debug;
+		};
+		1F4E1E521E251AC400604CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PerfactAccountBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PerfactAccountBook.app/PerfactAccountBook";
+			};
+			name = Release;
+		};
+		1F4E1E541E251AC400604CFC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PerfactAccountBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PerfactAccountBook;
+			};
+			name = Debug;
+		};
+		1F4E1E551E251AC400604CFC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = PerfactAccountBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = john.PerfactAccountBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = PerfactAccountBook;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F4E1E201E251AC300604CFC /* Build configuration list for PBXProject "PerfactAccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4E1E4B1E251AC400604CFC /* Debug */,
+				1F4E1E4C1E251AC400604CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F4E1E4D1E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4E1E4E1E251AC400604CFC /* Debug */,
+				1F4E1E4F1E251AC400604CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F4E1E501E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4E1E511E251AC400604CFC /* Debug */,
+				1F4E1E521E251AC400604CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		1F4E1E531E251AC400604CFC /* Build configuration list for PBXNativeTarget "PerfactAccountBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F4E1E541E251AC400604CFC /* Debug */,
+				1F4E1E551E251AC400604CFC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F4E1E1D1E251AC300604CFC /* Project object */;
+}

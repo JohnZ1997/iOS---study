@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleAspectFit" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RPL-1f-28Z">
+                                <rect key="frame" x="0.0" y="158" width="324" height="218"/>
+                                <inset key="contentEdgeInsets" minX="200" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="titleEdgeInsets" minX="-600" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <inset key="imageEdgeInsets" minX="-50" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                <state key="normal" title="默认" image="1.jpg" backgroundImage="3.jpg">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="disabled" title="disable" image="4.jpg" backgroundImage="1.jpg"/>
+                                <state key="selected" title="selected" image="2.jpg" backgroundImage="3.jpg"/>
+                                <state key="highlighted" title="highlighted" image="4.jpg" backgroundImage="3.jpg"/>
+                            </button>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="J9x-j0-Ryo">
+                                <rect key="frame" x="0.0" y="390" width="59" height="29"/>
+                                <state key="normal" title="selected"/>
+                                <connections>
+                                    <action selector="stateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="m9S-6N-wYd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ry-Q1-JBb">
+                                <rect key="frame" x="104" y="390" width="46" height="29"/>
+                                <state key="normal" title="unable"/>
+                                <connections>
+                                    <action selector="stateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hWa-8V-GZk"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FaX-Ro-07G">
+                                <rect key="frame" x="213" y="389" width="48" height="30"/>
+                                <state key="normal" title="normal"/>
+                                <connections>
+                                    <action selector="stateButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Srs-bF-PNI"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="customButton" destination="RPL-1f-28Z" id="UHg-xD-4Y7"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="400"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="1.jpg" width="165" height="220"/>
+        <image name="2.jpg" width="352" height="220"/>
+        <image name="3.jpg" width="293" height="220"/>
+        <image name="4.jpg" width="146" height="220"/>
+    </resources>
+</document>

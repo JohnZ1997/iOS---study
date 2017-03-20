@@ -1,0 +1,521 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F42A0551D39048800B13E6C /* 360.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1F42A0541D39048800B13E6C /* 360.jpg */; };
+		1FC675D81D350E10002003C5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC675D71D350E10002003C5 /* AppDelegate.swift */; };
+		1FC675DA1D350E10002003C5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC675D91D350E10002003C5 /* ViewController.swift */; };
+		1FC675DD1D350E10002003C5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC675DB1D350E10002003C5 /* Main.storyboard */; };
+		1FC675DF1D350E10002003C5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FC675DE1D350E10002003C5 /* Assets.xcassets */; };
+		1FC675E21D350E10002003C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1FC675E01D350E10002003C5 /* LaunchScreen.storyboard */; };
+		1FC675ED1D350E10002003C5 /* _60________Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC675EC1D350E10002003C5 /* _60________Tests.swift */; };
+		1FC675F81D350E10002003C5 /* _60________UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FC675F71D350E10002003C5 /* _60________UITests.swift */; };
+		1FC676061D35146A002003C5 /* test.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1FC676051D351469002003C5 /* test.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1FC675E91D350E10002003C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC675CC1D350E10002003C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC675D31D350E10002003C5;
+			remoteInfo = "360度全景照片浏览器";
+		};
+		1FC675F41D350E10002003C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1FC675CC1D350E10002003C5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1FC675D31D350E10002003C5;
+			remoteInfo = "360度全景照片浏览器";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1F42A0541D39048800B13E6C /* 360.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 360.jpg; sourceTree = "<group>"; };
+		1FC675D41D350E10002003C5 /* 360度全景照片浏览器.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "360度全景照片浏览器.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC675D71D350E10002003C5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1FC675D91D350E10002003C5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1FC675DC1D350E10002003C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1FC675DE1D350E10002003C5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1FC675E11D350E10002003C5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1FC675E31D350E10002003C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC675E81D350E10002003C5 /* 360度全景照片浏览器Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "360度全景照片浏览器Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC675EC1D350E10002003C5 /* _60________Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_60________Tests.swift"; sourceTree = "<group>"; };
+		1FC675EE1D350E10002003C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC675F31D350E10002003C5 /* 360度全景照片浏览器UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "360度全景照片浏览器UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC675F71D350E10002003C5 /* _60________UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_60________UITests.swift"; sourceTree = "<group>"; };
+		1FC675F91D350E10002003C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1FC676051D351469002003C5 /* test.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = test.jpg; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FC675D11D350E10002003C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675E51D350E10002003C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675F01D350E10002003C5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1FC675CB1D350E10002003C5 = {
+			isa = PBXGroup;
+			children = (
+				1FC675D61D350E10002003C5 /* 360度全景照片浏览器 */,
+				1FC675EB1D350E10002003C5 /* 360度全景照片浏览器Tests */,
+				1FC675F61D350E10002003C5 /* 360度全景照片浏览器UITests */,
+				1FC675D51D350E10002003C5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1FC675D51D350E10002003C5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1FC675D41D350E10002003C5 /* 360度全景照片浏览器.app */,
+				1FC675E81D350E10002003C5 /* 360度全景照片浏览器Tests.xctest */,
+				1FC675F31D350E10002003C5 /* 360度全景照片浏览器UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1FC675D61D350E10002003C5 /* 360度全景照片浏览器 */ = {
+			isa = PBXGroup;
+			children = (
+				1FC675D71D350E10002003C5 /* AppDelegate.swift */,
+				1FC675D91D350E10002003C5 /* ViewController.swift */,
+				1FC675DB1D350E10002003C5 /* Main.storyboard */,
+				1FC675DE1D350E10002003C5 /* Assets.xcassets */,
+				1FC675E01D350E10002003C5 /* LaunchScreen.storyboard */,
+				1FC675E31D350E10002003C5 /* Info.plist */,
+				1FC676051D351469002003C5 /* test.jpg */,
+				1F42A0541D39048800B13E6C /* 360.jpg */,
+			);
+			path = "360度全景照片浏览器";
+			sourceTree = "<group>";
+		};
+		1FC675EB1D350E10002003C5 /* 360度全景照片浏览器Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC675EC1D350E10002003C5 /* _60________Tests.swift */,
+				1FC675EE1D350E10002003C5 /* Info.plist */,
+			);
+			path = "360度全景照片浏览器Tests";
+			sourceTree = "<group>";
+		};
+		1FC675F61D350E10002003C5 /* 360度全景照片浏览器UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1FC675F71D350E10002003C5 /* _60________UITests.swift */,
+				1FC675F91D350E10002003C5 /* Info.plist */,
+			);
+			path = "360度全景照片浏览器UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1FC675D31D350E10002003C5 /* 360度全景照片浏览器 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC675FC1D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器" */;
+			buildPhases = (
+				1FC675D01D350E10002003C5 /* Sources */,
+				1FC675D11D350E10002003C5 /* Frameworks */,
+				1FC675D21D350E10002003C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "360度全景照片浏览器";
+			productName = "360度全景照片浏览器";
+			productReference = 1FC675D41D350E10002003C5 /* 360度全景照片浏览器.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1FC675E71D350E10002003C5 /* 360度全景照片浏览器Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC675FF1D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器Tests" */;
+			buildPhases = (
+				1FC675E41D350E10002003C5 /* Sources */,
+				1FC675E51D350E10002003C5 /* Frameworks */,
+				1FC675E61D350E10002003C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC675EA1D350E10002003C5 /* PBXTargetDependency */,
+			);
+			name = "360度全景照片浏览器Tests";
+			productName = "360度全景照片浏览器Tests";
+			productReference = 1FC675E81D350E10002003C5 /* 360度全景照片浏览器Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1FC675F21D350E10002003C5 /* 360度全景照片浏览器UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1FC676021D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器UITests" */;
+			buildPhases = (
+				1FC675EF1D350E10002003C5 /* Sources */,
+				1FC675F01D350E10002003C5 /* Frameworks */,
+				1FC675F11D350E10002003C5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1FC675F51D350E10002003C5 /* PBXTargetDependency */,
+			);
+			name = "360度全景照片浏览器UITests";
+			productName = "360度全景照片浏览器UITests";
+			productReference = 1FC675F31D350E10002003C5 /* 360度全景照片浏览器UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1FC675CC1D350E10002003C5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "张皓";
+				TargetAttributes = {
+					1FC675D31D350E10002003C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3ABF6JEP26;
+					};
+					1FC675E71D350E10002003C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3ABF6JEP26;
+						TestTargetID = 1FC675D31D350E10002003C5;
+					};
+					1FC675F21D350E10002003C5 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 3ABF6JEP26;
+						TestTargetID = 1FC675D31D350E10002003C5;
+					};
+				};
+			};
+			buildConfigurationList = 1FC675CF1D350E10002003C5 /* Build configuration list for PBXProject "360度全景照片浏览器" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1FC675CB1D350E10002003C5;
+			productRefGroup = 1FC675D51D350E10002003C5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1FC675D31D350E10002003C5 /* 360度全景照片浏览器 */,
+				1FC675E71D350E10002003C5 /* 360度全景照片浏览器Tests */,
+				1FC675F21D350E10002003C5 /* 360度全景照片浏览器UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1FC675D21D350E10002003C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC675E21D350E10002003C5 /* LaunchScreen.storyboard in Resources */,
+				1F42A0551D39048800B13E6C /* 360.jpg in Resources */,
+				1FC675DF1D350E10002003C5 /* Assets.xcassets in Resources */,
+				1FC675DD1D350E10002003C5 /* Main.storyboard in Resources */,
+				1FC676061D35146A002003C5 /* test.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675E61D350E10002003C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675F11D350E10002003C5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1FC675D01D350E10002003C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC675DA1D350E10002003C5 /* ViewController.swift in Sources */,
+				1FC675D81D350E10002003C5 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675E41D350E10002003C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC675ED1D350E10002003C5 /* _60________Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FC675EF1D350E10002003C5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1FC675F81D350E10002003C5 /* _60________UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1FC675EA1D350E10002003C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC675D31D350E10002003C5 /* 360度全景照片浏览器 */;
+			targetProxy = 1FC675E91D350E10002003C5 /* PBXContainerItemProxy */;
+		};
+		1FC675F51D350E10002003C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1FC675D31D350E10002003C5 /* 360度全景照片浏览器 */;
+			targetProxy = 1FC675F41D350E10002003C5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1FC675DB1D350E10002003C5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC675DC1D350E10002003C5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1FC675E01D350E10002003C5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1FC675E11D350E10002003C5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1FC675FA1D350E10002003C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1FC675FB1D350E10002003C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1FC675FD1D350E10002003C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "360度全景照片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		1FC675FE1D350E10002003C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "360度全景照片浏览器/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		1FC676001D350E10002003C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "360度全景照片浏览器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360度全景照片浏览器.app/360度全景照片浏览器";
+			};
+			name = Debug;
+		};
+		1FC676011D350E10002003C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "360度全景照片浏览器Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/360度全景照片浏览器.app/360度全景照片浏览器";
+			};
+			name = Release;
+		};
+		1FC676031D350E10002003C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "360度全景照片浏览器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "360度全景照片浏览器";
+			};
+			name = Debug;
+		};
+		1FC676041D350E10002003C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "360度全景照片浏览器UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "my.-60--------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "360度全景照片浏览器";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1FC675CF1D350E10002003C5 /* Build configuration list for PBXProject "360度全景照片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC675FA1D350E10002003C5 /* Debug */,
+				1FC675FB1D350E10002003C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC675FC1D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC675FD1D350E10002003C5 /* Debug */,
+				1FC675FE1D350E10002003C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC675FF1D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC676001D350E10002003C5 /* Debug */,
+				1FC676011D350E10002003C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1FC676021D350E10002003C5 /* Build configuration list for PBXNativeTarget "360度全景照片浏览器UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FC676031D350E10002003C5 /* Debug */,
+				1FC676041D350E10002003C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1FC675CC1D350E10002003C5 /* Project object */;
+}

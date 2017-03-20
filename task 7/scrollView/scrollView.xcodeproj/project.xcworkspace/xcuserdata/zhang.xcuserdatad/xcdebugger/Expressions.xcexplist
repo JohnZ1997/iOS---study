@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "Banner.scrollViewDidScroll(UIScrollView) -&gt; ():Banner.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Banner.loadPageControl() -&gt; UIPageControl:Banner.swift">
+      </ContextState>
+      <ContextState
+         contextName = "Banner.(initContainerView in _3A1D4E839EFB39F63F0783172C148228)() -&gt; ():Banner.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>

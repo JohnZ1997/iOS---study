@@ -1,0 +1,17 @@
+<data>
+    <property title = "name">
+        John
+    </property>
+    
+    <property title = "age">
+        20
+    </property>
+    
+    <property title = "height">
+        180
+    </property>
+    
+    <property title = "weight">
+        70
+    </property>
+</data>

@@ -1,0 +1,20 @@
+<questions>
+    <question text="1+1=?" right="C">
+        <anwser text="1" tag="A"></anwser>
+        <anwser text="0" tag="B"></anwser>
+        <anwser text="2" tag="C"></anwser>
+        <anwser text="3" tag="D"></anwser>
+    </question>
+    <question text="1+2=?" right="D">
+        <anwser text="1" tag="A"></anwser>
+        <anwser text="0" tag="B"></anwser>
+        <anwser text="2" tag="C"></anwser>
+        <anwser text="3" tag="D"></anwser>
+    </question>
+    <question text="2-1=?" right="A">
+        <anwser text="1" tag="A"></anwser>
+        <anwser text="0" tag="B"></anwser>
+        <anwser text="2" tag="C"></anwser>
+        <anwser text="3" tag="D"></anwser>
+    </question>
+</questions>
